@@ -1,0 +1,15 @@
+﻿<Window x:Class="webservice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:webservice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBox x:Name="TXTquote" HorizontalAlignment="Left" Height="126" Margin="249,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401"/>
+        <Button x:Name="BTGetquote" Content="Get Quote" HorizontalAlignment="Left" Height="73" Margin="505,229,0,0" VerticalAlignment="Top" Width="95" Click="BTGetquote_Click"/>
+
+    </Grid>
+</Window>
