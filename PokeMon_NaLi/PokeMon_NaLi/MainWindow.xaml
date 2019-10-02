@@ -1,0 +1,14 @@
+﻿<Window x:Class="PokeMon_NaLi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokeMon_NaLi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ChooseBT" Content="Show ability" HorizontalAlignment="Left" Height="92" Margin="561,272,0,0" VerticalAlignment="Top" Width="173" Click="ChooseBT_Click"/>
+        <ListBox x:Name="lstPokes" HorizontalAlignment="Left" Height="241" Margin="28,54,0,0" VerticalAlignment="Top" Width="305"/>
+
+    </Grid>
+</Window>
